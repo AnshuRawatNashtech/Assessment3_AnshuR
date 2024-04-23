@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0165CFB3-48FC-4769-BBAB-44682D077A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpgAPI", "src\rpgAPI\rpgAPI.csproj", "{49651374-37B8-43F5-9F84-35A1DEA1641B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{236DBE11-8BF9-45B1-9D2D-A6277C254B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rpdAPITest", "Test\rpdAPITest\rpdAPITest.csproj", "{34CC233D-BF8E-4A64-8754-DB7F9C292735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49651374-37B8-43F5-9F84-35A1DEA1641B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49651374-37B8-43F5-9F84-35A1DEA1641B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49651374-37B8-43F5-9F84-35A1DEA1641B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49651374-37B8-43F5-9F84-35A1DEA1641B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CC233D-BF8E-4A64-8754-DB7F9C292735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CC233D-BF8E-4A64-8754-DB7F9C292735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CC233D-BF8E-4A64-8754-DB7F9C292735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CC233D-BF8E-4A64-8754-DB7F9C292735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49651374-37B8-43F5-9F84-35A1DEA1641B} = {0165CFB3-48FC-4769-BBAB-44682D077A9A}
+		{34CC233D-BF8E-4A64-8754-DB7F9C292735} = {236DBE11-8BF9-45B1-9D2D-A6277C254B4B}
+	EndGlobalSection
+EndGlobal
